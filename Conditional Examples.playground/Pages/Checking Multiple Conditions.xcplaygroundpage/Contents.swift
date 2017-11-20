@@ -49,6 +49,12 @@ if manners == "excellent" && effort == "high" && nature == "kind" {
 }
 
 
+//EXAMPLE- USING THE ORE OPERATER\\
+let grade = 7
+if grade == 7 || grade == 8 {
+    print ("You must be a middle schooler")
+}
+
 //: **NOTE:** Output will show up in the Debug area.
 //:
 //: If you don't see this, press **Command-Shift-Y**.

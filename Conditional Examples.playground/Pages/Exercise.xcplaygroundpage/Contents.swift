@@ -26,6 +26,15 @@ let canvas = Canvas(width: 400, height: 300)
 
 // Draw a square at the current position – black fill, white text when random number is one, otherwise, colours are inverted
 
+canvas.defaultBorderWidth = 5
+canvas.borderColor = Color.red
+
+for bananas in stride(from: 0, through: 400, by: 100) {
+    canvas.drawRectangle(bottomLeftX: bananas, bottomLeftY: 0, width: 100, height: 100, borderWidth: 10)
+}
+
+let inital hue = 
+
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
